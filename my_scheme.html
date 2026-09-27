@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+
+    <title>My Schemes - Kisan Sarathi</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f8f1;
+            color: #333;
+        }
+
+        /* Header */
+
+        header {
+            background-color: white;
+            padding: 18px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .logo {
+            color: #4a7e2d;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #4a7e2d;
+        }
+
+        /* Page Title */
+
+        .title-section {
+            text-align: center;
+            padding: 45px 20px 25px;
+        }
+
+        .title-section h1 {
+            color: #4a7e2d;
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .title-section p {
+            color: #666;
+        }
+
+        /* Search */
+
+        .search-box {
+            text-align: center;
+            margin: 20px auto 40px;
+        }
+
+        .search-box input {
+            width: 400px;
+            max-width: 90%;
+            padding: 13px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+
+        /* Scheme Cards */
+
+        .scheme-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            padding-bottom: 50px;
+        }
+
+        .scheme-card {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+        }
+
+        .scheme-icon {
+            font-size: 40px;
+        }
+
+        .scheme-card h2 {
+            color: #4a7e2d;
+            font-size: 21px;
+        }
+
+        .scheme-id {
+            display: inline-block;
+            background-color: #e9f3df;
+            color: #4a7e2d;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .scheme-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .apply-btn {
+            display: inline-block;
+            background-color: #4a7e2d;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .apply-btn:hover {
+            background-color: #35651f;
+        }
+
+        /* Footer */
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Responsive */
+
+        @media screen and (max-width: 900px) {
+
+            .scheme-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+        @media screen and (max-width: 600px) {
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+                padding: 20px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            .scheme-container {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <div class="logo">
+            🌱 KISAN SARATHI
+        </div>
+
+        <nav>
+            <a href="farming.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="my-scheme.html">My Scheme</a>
+            <a href="registeration_form.html">Registration</a>
+            <a href="login.html">Login</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Title -->
+
+    <section class="title-section">
+
+        <h1>🌾 Farmer Schemes</h1>
+
+        <p>
+            Government schemes and agricultural support for farmers
+        </p>
+
+    </section>
+
+
+    <!-- Search -->
+
+    <div class="search-box">
+
+        <input type="text"
+               placeholder="Search farming scheme...">
+
+    </div>
+
+
+    <!-- Schemes -->
+
+    <div class="scheme-container">
+
+
+        <!-- PM KISAN -->
+
+        <div class="scheme-card">
+
+            <div class="scheme-icon">🌾</div>
+
+            <span class="scheme-id">
+                Scheme ID: AGR-001
+            </span>
+
+            <h2>PM-KISAN</h2>
+
+            <p>
+                Pradhan Mantri Kisan Samman Nidhi provides
+                income support to eligible farmer families
+                according to the scheme guidelines.
+            </p>
+
+            <a href="#" class="apply-btn">
+                View Details
+            </a>
+
+        </div>
+
+
+        <!-- PMFBY -->
+
+        <div class="scheme-card">
+
+            <div class="scheme-icon">🛡️</div>
+
+            <span class="scheme-id">
+                Scheme ID: AGR-002
+            </span>
+
+            <h2>PM Fasal Bima Yojana</h2>
+
+            <p>
+                Crop insurance support for farmers against
+                specified crop losses and risks under the
+                applicable scheme guidelines.
+            </p>
+
+            <a href="#" class="apply-btn">
+                View Details
+            </a>
+
+        </div>
+
+
+        <!-- KCC -->
+
+        <div class="scheme-card">
+
+            <div class="scheme-icon">💳</div>
+
+            <span class="scheme-id">
+                Scheme ID: AGR-003
+            </span>
+
+            <h2>Kisan Credit Card</h2>
+
+            <p>
+                Provides timely credit support for cultivation
+                and certain agriculture and allied activities.
+            </p>
+
+            <a href="#" class="apply-btn">
+                View Details
+            </a>
+
+        </div>
+
+
+        <!-- PMKSY -->
+
+        <div class="scheme-card">
+
+            <div class="scheme-icon">💧</div>
+
+            <span class="scheme-id">
+                Scheme ID: AGR-004
+            </span>
+
+            <h2>PM Krishi Sinchayee Yojana</h2>
+
+            <p>
+                Supports irrigation and efficient use of water
+                for agricultural activities.
+            </p>
+
+            <a href="#" class="apply-btn">
+                View Details
+            </a>
+
+        </div>
+
+
+        <!-- Soil Health -->
+
+        <div class="scheme-card">
+
+            <div class="scheme-icon">🌱</div>
+
+            <span class="scheme-id">
+                Scheme ID: AGR-005
+            </span>
+
+            <h2>Soil Health Card</h2>
+
+            <p>
+                Helps farmers understand soil nutrient status
+                and recommendations for soil management.
+            </p>
+
+            <a href="#" class="apply-btn">
+                View Details
+            </a>
+
+        </div>
+
+
+        <!-- e-NAM -->
+
+        <div class="scheme-card">
+
+            <div class="scheme-icon">🏪</div>
+
+            <span class="scheme-id">
+                Scheme ID: AGR-006
+            </span>
+
+            <h2>e-NAM</h2>
+
+            <p>
+                An electronic agricultural market platform
+                intended to improve market access and
+                agricultural produce trading.
+            </p>
+
+            <a href="#" class="apply-btn">
+                View Details
+            </a>
+
+        </div>
+
+
+        <!-- Gujarat Smartphone Scheme -->
+
+        <div class="scheme-card">
+
+            <div class="scheme-icon">📱</div>
+
+            <span class="scheme-id">
+                Scheme ID: GUJ-001
+            </span>
+
+            <h2>Farmer Smartphone Assistance</h2>
+
+            <p>
+                Gujarat scheme providing eligible farmers
+                assistance for purchasing a smartphone,
+                subject to applicable conditions.
+            </p>
+
+            <a href="#" class="apply-btn">
+                View Details
+            </a>
+
+        </div>
+
+
+        <!-- Agriculture Support -->
+
+        <div class="scheme-card">
+
+            <div class="scheme-icon">🚜</div>
+
+            <span class="scheme-id">
+                Scheme ID: AGR-007
+            </span>
+
+            <h2>Agriculture Support Schemes</h2>
+
+            <p>
+                Explore agriculture-related Central and
+                State/UT schemes based on farmer eligibility.
+            </p>
+
+            <a href="#" class="apply-btn">
+                View Details
+            </a>
+
+        </div>
+
+
+        <!-- Fertilizer -->
+
+        <div class="scheme-card">
+
+            <div class="scheme-icon">🌿</div>
+
+            <span class="scheme-id">
+                Scheme ID: AGR-008
+            </span>
+
+            <h2>Fertilizer & Soil Support</h2>
+
+            <p>
+                Explore applicable agriculture and soil
+                management support schemes.
+            </p>
+
+            <a href="#" class="apply-btn">
+                View Details
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Kisan Sarathi. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

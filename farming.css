@@ -1,0 +1,875 @@
+/* CSS Document */
+/* ================================
+   HEADER CSS
+================================ */
+
+.main-header {
+    width: 100%;
+    min-height: 55px;
+
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 5px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+    position: relative;
+    z-index: 1000;
+}
+
+
+/* ================================
+   LOGO SECTION
+================================ */
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+
+/* Government Logo */
+
+.government-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.emblem {
+    font-size: 45px;
+    color: #555;
+}
+
+.ministry-text {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 9px;
+    line-height: 1.3;
+
+    color: #333;
+}
+
+.ministry-text strong {
+    font-weight: bold;
+}
+
+.ministry-text span {
+    font-size: 8px;
+}
+
+
+/* Vertical Line */
+
+.vertical-line {
+    width: 1px;
+    height: 55px;
+
+    background-color: #cccccc;
+}
+
+
+/* ================================
+   KISAN SARATHI LOGO
+================================ */
+
+.kisan-logo {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    color: #5da526;
+}
+
+.plant-logo {
+    font-size: 42px;
+}
+
+.kisan-title {
+    font-size: 23px;
+
+    font-weight: bold;
+
+    line-height: 20px;
+}
+
+.sarathi-title {
+    font-size: 23px;
+
+    font-weight: bold;
+
+    line-height: 25px;
+}
+
+.kisan-logo small {
+    font-size: 8px;
+
+    color: #777;
+}
+
+
+/* ================================
+   NAVIGATION
+================================ */
+
+.navbar {
+    display: flex;
+
+    align-items: center;
+
+    gap: 17px;
+}
+
+.navbar a {
+    text-decoration: none;
+
+    color: #222;
+
+    font-size: 15px;
+
+    padding: 8px 0;
+
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #4d882b;
+}
+
+
+/* Active Home */
+
+.navbar .active {
+    border-bottom: 3px solid #27641d;
+}
+
+
+/* ================================
+   NEW LABEL
+================================ */
+
+.new-link {
+    position: relative;
+}
+
+.new-link span {
+    position: absolute;
+
+    top: -5px;
+    right: -1px;
+
+    background-color: #e83232;
+
+    color: white;
+
+    font-size: 9px;
+
+    padding: 2px 5px;
+
+    border-radius: 4px;
+}
+
+
+/* ================================
+   FARMER REGISTRATION BUTTON
+================================ */
+
+.registration-btn {
+    background-color: #4a7e2d;
+
+    color: white !important;
+
+    padding: 8px 13px !important;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+.registration-btn:hover {
+    background-color: #35651f;
+
+    color: white !important;
+}
+
+
+/* ================================
+   LOGIN BUTTON
+================================ */
+
+.login-btn {
+    border: 1px solid #4a7e2d;
+
+    padding: 6px 100px !important;
+
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    background-color: #4a7e2d;
+
+    color: white !important;
+}
+
+
+
+
+a
+{
+text-decoration:none;
+color:#33FF00;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+.top
+{
+height:45px;
+background:#294d19;
+color:#FFFFFF;
+padding:0 50px;
+font-size:15px
+}
+.gov
+{
+font-weight:700;
+}
+.contact
+{
+font-weight:bold;
+}
+header
+{
+height:85px;
+background:white;
+display:flex;
+align-items:center;
+padding:0 50px;
+box-shadow:0 2px 5px #999;
+}
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.gov-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 11px;
+}
+
+.emblem {
+    font-size: 48px;
+    color: #555;
+}
+
+
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    position: relative;
+}
+nav a:hover
+{
+color:#35751e;
+}
+nav.active
+{
+border-bottom:3px solid #27651a;
+padding-bottom:10px;
+}
+.hero{
+height:565px;
+position:relative;
+background-image:url(images.jpg);
+background-size:cover;
+background-position:center;
+}
+.overlay {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.48);
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+
+    color: white;
+
+    text-align: center;
+
+    padding-top: 95px;
+}
+
+.hero-content h1 {
+    font-size: 58px;
+    color: #a5dc35;
+
+    margin-bottom: 15px;
+}
+.hero-content h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.hero-content h3 {
+    font-size: 26px;
+    max-width: 1100px;
+    margin: auto;
+
+    line-height: 1.4;
+}
+.hero-content p {
+    font-size: 23px;
+    line-height: 1.5;
+
+    margin-top: 30px;
+}
+.hero-content button {
+    margin-top: 25px;
+
+    background: #079d4c;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 17px 25px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.hero-content button:hover {
+    background: #057b3b;
+}
+.available {
+    margin-top: 10px;
+
+    font-size: 20px;
+    line-height: 1.5;
+}
+.implemented h3 {
+    margin-bottom: 25px;
+}
+
+.organizations {
+    background: #f4f8ef;
+    color: #333;
+
+    display: flex;
+    justify-content: center;
+
+   gap: 180px;
+
+    padding: 30px;
+}
+.organization {
+    width: 300px;
+}
+
+.org-icon {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.organization b {
+    color: #344c1e;
+    font-size: 17px;
+}
+.implemented {
+    background: #303840;
+
+    color: white;
+
+    text-align: center;
+}
+
+.implemented > h3 {
+    padding: 12px;
+
+    font-size: 17px;
+}
+
+.organization-container {
+    background: #f4f8ef;
+
+    min-height: 125px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 150px;
+
+    padding: 25px;
+}
+
+.organization {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    color: #333;
+
+    min-width: 350px;
+
+    text-align: left;
+}
+
+.organization img {
+    max-width: 80px;
+
+    max-height: 70px;
+}
+
+.fake-logo {
+    font-size: 45px;
+}
+
+.organization h3 {
+    color: #395c22;
+
+    font-size: 17px;
+}
+
+.organization p {
+    color: #666;
+
+    font-size: 13px;
+
+    margin-top: 5px;
+}
+.about {
+    display: flex;
+
+    align-items: center;
+
+    gap: 60px;
+
+    padding: 80px 8%;
+
+    background: white;
+}
+.about-image{
+width:50%;
+}
+.about-image img
+{
+width:100%;
+height:380%;
+object-fit:cover;
+border-radius:10px;
+box-shadow:0 8px 25px rgba(0,0,0,0.15);
+}
+.about-content {
+    width: 50%;
+}
+
+.section-label {
+    color: #5d982c;
+
+    font-weight: bold;
+
+    font-size: 14px;
+}
+.about-content h2 {
+    color: #315e20;
+
+    font-size: 38px;
+
+    margin: 15px 0 20px;
+
+    line-height: 1.2;
+}
+.registration-section {
+    background:
+    linear-gradient(
+        rgba(42,82,27,0.9),
+        rgba(42,82,27,0.9)
+    ),
+    url("images/kisan.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    padding: 80px 20px;
+
+    text-align: center;
+
+    color: white;
+}
+.registration-content span {
+    color: #b6e86b;
+
+    font-weight: bold;
+
+    font-size: 14px;
+}
+
+.registration-content h2 {
+    font-size: 40px;
+
+    margin: 12px 0;
+}.registration-content p {
+    font-size: 17px;
+
+    margin-bottom: 25px;
+
+    color: #eee;
+}
+
+.register-now {
+    border: none;
+
+    background: white;
+
+    color: #376b24;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    padding: 14px 25px;
+
+    border-radius: 5px;
+}
+.statistics {
+    display: grid;
+
+    grid-template-columns:
+    repeat(4, 1fr);
+
+    background: #f1f5ed;
+
+    padding: 45px 8%;
+}
+
+.stat {
+    text-align: center;
+
+    border-right: 1px solid #d2d8cd;
+}
+
+.stat:last-child {
+    border-right: none;
+}
+
+.stat h2 {
+    color: #4b8629;
+
+    font-size: 38px;
+
+    margin-bottom: 7px;
+}
+
+.stat p {
+    color: #555;
+
+    font-size: 16px;
+}
+
+
+.contact-section {
+    padding: 80px 8%;
+
+    background: white;
+}
+
+.contact-container {
+    display: grid;
+
+    grid-template-columns:
+    1fr 1fr;
+
+    gap: 70px;
+
+    max-width: 1100px;
+
+    margin: auto;
+}
+
+.contact-info {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.contact-item {
+    display: flex;
+
+    gap: 20px;
+
+    align-items: flex-start;
+}
+
+.contact-icon {
+    width: 50px;
+
+    height: 50px;
+
+    background: #e9f4e2;
+
+    color: #4c852b;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 22px;
+}
+
+.contact-item h3 {
+    color: #345e24;
+
+    margin-bottom: 8px;
+}
+
+.contact-item p {
+    color: #666;
+
+    margin: 3px 0;
+}
+
+
+/* FORM */
+
+.contact-form {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+
+    border: 1px solid #ddd;
+
+    border-radius: 5px;
+
+    padding: 14px;
+
+    font-family: Arial;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #59932f;
+}
+
+.contact-form textarea {
+    height: 130px;
+
+    resize: vertical;
+}
+
+.contact-form button {
+    background: #4b842c;
+
+    border: none;
+
+    color: white;
+
+    padding: 14px;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+}
+
+.about-content p {
+    color: #666;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    margin-bottom: 15px;
+}
+.green-button {
+    display: inline-block;
+
+    background: #47852a;
+
+    color: white;
+
+    padding: 13px 23px;
+
+    border-radius: 5px;
+
+    margin-top: 10px;
+
+    font-weight: bold;
+}
+footer {
+    background: #263d20;
+
+    color: white;
+}
+
+.footer-container {
+    padding: 55px 8%;
+
+    display: grid;
+
+    grid-template-columns:
+    2fr 1fr 1.5fr 1.5fr;
+
+    gap: 50px;
+}
+
+.footer-logo {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    color: #9bd453;
+
+    font-size: 35px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.footer-logo span {
+    font-size: 20px;
+
+    line-height: 18px;
+}
+
+.footer-about p {
+    color: #c9d1c6;
+
+    line-height: 1.7;
+
+    max-width: 300px;
+}
+
+.footer-column {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.footer-column h3 {
+    color: #a8d66b;
+
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: #ddd;
+
+    transition: 0.3s;
+}
+
+.footer-column a:hover {
+    color: #a8d66b;
+
+    padding-left: 5px;
+}
+
+.footer-column p {
+    color: #ddd;
+
+    font-size: 14px;
+}
+
+
+/* FOOTER BOTTOM */
+
+.footer-bottom {
+    border-top: 1px solid #405139;
+
+    padding: 18px 8%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    color: #cbd2c8;
+
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .header {
+        padding: 15px 25px;
+
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .top-bar {
+        padding: 10px 25px;
+    }
+
+    .top-right {
+        gap: 10px;
+    }
+
+    .service-container,
+    .scheme-container {
+        grid-template-columns:
+        repeat(2, 1fr);
+    }
+
+}
+

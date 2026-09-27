@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+    <title>Vikalp - Kisan Sarathi</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f8f1;
+            color: #333;
+        }
+
+        /* HEADER */
+
+        header {
+            background-color: white;
+            padding: 18px 50px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .logo {
+            color: #4a7e2d;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #4a7e2d;
+        }
+
+        .active {
+            color: #4a7e2d !important;
+            font-weight: bold;
+        }
+
+
+        /* TITLE */
+
+        .title {
+            text-align: center;
+            padding: 50px 20px 30px;
+        }
+
+        .title h1 {
+            color: #4a7e2d;
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .title p {
+            color: #666;
+            font-size: 16px;
+        }
+
+
+        /* VIKALP CARDS */
+
+        .container {
+
+            width: 90%;
+            max-width: 1200px;
+
+            margin: auto;
+
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+
+            gap: 25px;
+
+            padding-bottom: 60px;
+        }
+
+
+        .card {
+
+            background-color: white;
+
+            padding: 25px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+
+            transition: 0.3s;
+        }
+
+
+        .card:hover {
+
+            transform: translateY(-5px);
+
+            box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+        }
+
+
+        .icon {
+
+            font-size: 45px;
+        }
+
+
+        .card h2 {
+
+            color: #4a7e2d;
+
+            margin: 12px 0;
+        }
+
+
+        .card p {
+
+            color: #666;
+
+            line-height: 1.6;
+        }
+
+
+        .vikalp-btn {
+
+            display: inline-block;
+
+            margin-top: 10px;
+
+            padding: 10px 18px;
+
+            background-color: #4a7e2d;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 5px;
+        }
+
+
+        .vikalp-btn:hover {
+
+            background-color: #35651f;
+        }
+
+
+        /* INFORMATION BOX */
+
+        .info {
+
+            width: 90%;
+            max-width: 1000px;
+
+            margin: 0 auto 50px;
+
+            background-color: #e8f2df;
+
+            padding: 25px;
+
+            border-left: 5px solid #4a7e2d;
+
+            border-radius: 5px;
+        }
+
+
+        .info h2 {
+
+            color: #4a7e2d;
+        }
+
+
+        .info p {
+
+            line-height: 1.7;
+
+            color: #555;
+        }
+
+
+        /* FOOTER */
+
+        footer {
+
+            background-color: #222;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 20px;
+        }
+
+
+        /* RESPONSIVE */
+
+        @media screen and (max-width: 900px) {
+
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+
+        @media screen and (max-width: 600px) {
+
+            header {
+
+                flex-direction: column;
+
+                gap: 15px;
+
+                padding: 20px;
+            }
+
+            nav a {
+
+                margin: 5px;
+
+                display: inline-block;
+            }
+
+            .container {
+
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">
+            🌱 KISAN SARATHI
+        </div>
+
+        <nav>
+
+            <a href="farming.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="my_scheme.html">
+                My Scheme
+            </a>
+
+            <a href="services.html">
+                Services
+            </a>
+
+            <a href="vikalp.html" class="active">
+                Vikalp
+            </a>
+
+            <a href="registeration_form.html">
+                Registration
+            </a>
+
+            <a href="login.html">
+                Login
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- TITLE -->
+
+    <section class="title">
+
+        <h1>
+            🌾 Vikalp
+        </h1>
+
+        <p>
+            Explore alternative options for farming
+        </p>
+
+    </section>
+
+
+    <!-- VIKALP CARDS -->
+
+    <div class="container">
+
+
+        <div class="card">
+
+            <div class="icon">
+                🌱
+            </div>
+
+            <h2>
+                Alternative Crops
+            </h2>
+
+            <p>
+                Explore different crop options based on
+                farming conditions and local requirements.
+            </p>
+
+            <a href="#" class="vikalp-btn">
+                View Options
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                💧
+            </div>
+
+            <h2>
+                Water Saving
+            </h2>
+
+            <p>
+                Explore water-efficient irrigation and
+                farming practices.
+            </p>
+
+            <a href="#" class="vikalp-btn">
+                View Options
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                🌾
+            </div>
+
+            <h2>
+                Crop Diversification
+            </h2>
+
+            <p>
+                Learn about diversifying crops to support
+                sustainable farming practices.
+            </p>
+
+            <a href="#" class="vikalp-btn">
+                View Options
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                🥬
+            </div>
+
+            <h2>
+                Vegetable Farming
+            </h2>
+
+            <p>
+                Explore vegetable farming options and
+                cultivation information.
+            </p>
+
+            <a href="#" class="vikalp-btn">
+                View Options
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                🍎
+            </div>
+
+            <h2>
+                Horticulture
+            </h2>
+
+            <p>
+                Information about fruit crops, horticulture
+                and related farming activities.
+            </p>
+
+            <a href="#" class="vikalp-btn">
+                View Options
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                🐄
+            </div>
+
+            <h2>
+                Allied Farming
+            </h2>
+
+            <p>
+                Explore options such as dairy, livestock
+                and other allied agricultural activities.
+            </p>
+
+            <a href="#" class="vikalp-btn">
+                View Options
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- INFORMATION -->
+
+    <div class="info">
+
+        <h2>
+            About Vikalp
+        </h2>
+
+        <p>
+            Vikalp provides farmers with information about
+            different agricultural options. Farmers can
+            explore alternative crops, water-efficient
+            practices, horticulture and allied farming
+            activities.
+        </p>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+
+    <footer>
+
+        <p>
+            © 2026 Kisan Sarathi. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
